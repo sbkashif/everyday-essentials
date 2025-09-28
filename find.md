@@ -19,3 +19,11 @@ find . -maxdepth 1 -type d ! -path . -exec sh -c 'echo -n "{}: "; find "{}" -typ
   last_col=$(echo "$tail_line" | awk "{print \$NF}")
   echo "2nd column: $second_col, Last column: $last_col"
 ' sh {} \;`
+
+# Sort directories numerically
+
+find ../../gcmc_simulations/loadings/sar_1/calero/nh3/473K/ -maxdepth 1 -type d \
+  ! -name "." \
+| awk -F'/' '{print $(NF) "\t" $0}' \
+| sort -g \
+| cut -f2
