@@ -16,8 +16,9 @@ this repository is for storing terminal commands i routinely refer to
   - # sort directories numerically - clean
   
 - [git](git.md)
-  - # automatically git rm the deleted files- [grep](grep.md)
+  - # automatically git rm the deleted files
   - # disable file mode changes from git tracking
+- [grep](grep.md)
 - [tmux](tmux.md)
   - # start a session
   - # monitor progress
