@@ -1,3 +1,10 @@
-Automatically git rm the deleted files: `git ls-files --deleted | xargs git rm`
+# automatically git rm the deleted files
 
-Disable file mode changes from git tracking: `git config --global core.fileMode false`
+```bash
+git ls-files --deleted | xargs git rm
+```
+
+# disable file mode changes from git tracking
+```bash
+git config --global core.fileMode false
+```
