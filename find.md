@@ -32,7 +32,9 @@ find ../../gcmc_simulations/loadings/sar_1/calero/nh3/473K/ -maxdepth 1 -type d 
 
 # Sort directories numerically - clean
 
-`find . -maxdepth 1 -type d ! -name "." | sed 's|^\./||' | sort -g | sed 's|^|./|'`
+```bash
+find . -maxdepth 1 -type d ! -name "." | sed 's|^\./||' | sort -g | sed 's|^|./|'
+```
 
 ## explanation via <img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:32px;margin-right:16px"/>
 
