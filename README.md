@@ -1,6 +1,4 @@
-# useful_commands_and_shortcuts
-
-[not very well maintained and work in progress]
+# everyday essentialls [not very well maintained at this moment]
 
 This repository contains useful information that I refer to daily —  
 from basic English grammar to terminal commands and shortcuts.
