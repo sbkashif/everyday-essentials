@@ -2,7 +2,8 @@
 
 [not very well maintained and work in progress]
 
-this repository is for storing terminal commands i routinely refer to
+This repository contains useful information that I refer to daily —  
+from basic English grammar to terminal commands and shortcuts.
 
 ## Table of Contents
 
@@ -23,6 +24,11 @@ this repository is for storing terminal commands i routinely refer to
   - start a session
   - monitor progress
   - kill a session
-
+- [Essentials of English Grammar](english_grammar.md)
+ - Nouns
+ - Verbs
+ - Pronouns
+ - Tenses
+ - Prqactical tips
 ---
 
