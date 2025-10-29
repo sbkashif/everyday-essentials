@@ -25,10 +25,10 @@ from basic English grammar to terminal commands and shortcuts.
   - monitor progress
   - kill a session
 - [Essentials of English Grammar](english_grammar.md)
- - Nouns
- - Verbs
- - Pronouns
- - Tenses
- - Prqactical tips
+   - Nouns
+   - Verbs
+   - Pronouns
+   - Tenses
+   - Prqactical tips
 ---
 
