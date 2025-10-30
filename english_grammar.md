@@ -2,7 +2,7 @@
 
 Generated from <img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:32px;margin-right:16px"/>
 
----
+Let's start with a few key definitions and building blocks of English grammar.
 
 ## 1. Parts of Speech
 
@@ -40,6 +40,7 @@ A **verb** expresses an action, occurrence, or state of being.
 
 **Example:**  
 They **run** every morning.
+
 ---
 
 ### Adjective
@@ -48,6 +49,7 @@ An **adjective** describes or modifies a noun.
 
 **Example:**  
 She wore a **red** dress.
+
 ---
 
 ### Adverb
@@ -75,6 +77,7 @@ A **conjunction** connects words, phrases, or clauses.
 
 **Example:**  
 She likes tea **and** coffee.
+
 ---
 
 ### Interjection
@@ -83,6 +86,7 @@ An **interjection** expresses emotion or sudden feeling.
 
 **Example:**  
 **Wow!** That’s amazing!
+
 ---
 
 ## 2. Sentences and Clauses
@@ -230,15 +234,8 @@ A cat climbed the tree.
 
 ---
 
-## 10. Common Sentence Errors
 
-- Subject-verb agreement  
-- Wrong tense usage  
-- Double negatives
-
----
-
-## 11. Punctuation Essentials
+## 10. Punctuation Essentials
 
 - Period (.) ends statement  
 - Comma (,) separates items  
@@ -246,6 +243,107 @@ A cat climbed the tree.
 - Exclamation (!) expresses feeling  
 - Colon (:) introduces list  
 - Semicolon (;) links clauses
+
+---
+
+# Sentence Construction Rules
+
+Having had an idea on key terms and their prescribed usage, let's get into basic rules of constructing sentences and paragraphs.
+
+## 1. Basic Sentence Components
+
+- **Subject:** The person, place, thing, or idea that performs the action or is described. Usually a noun or pronoun.
+Example: **The teacher** explains the lesson.
+- **Predicate:** The part of the sentence that tells what the subject does or is. This includes the verb and any modifiers or objects.
+Example: The teacher **explains the lesson clearly**.
+- **Object:** A noun or pronoun that receives the action of the verb. There are two types:
+    - **Direct Object:** Answers the question "What?" or "Whom?" after the verb.
+Example: She reads **a book**.
+    - **Indirect Object:** Answers "To whom?" or "For whom?" the action is done.
+Example: She gave **me** the book.
+- **Complement:** A word or phrase that completes the meaning of the subject or object, often linked by linking verbs (am, is, are, seem).
+Example: She is **a teacher**.
+Example: They found the movie **interesting**.
+- **Modifiers:** Words or phrases (usually adjectives or adverbs) that describe or limit other words.
+Example: The **tall** man (adjective modifier).
+Example: She runs **quickly** (adverb modifier).
+
+
+## 2. Sentence Structure Patterns
+
+- **S (Subject) + V (Verb)**
+Example: Birds sing.
+- **S + V + O (Object)**
+Example: She called her friend.
+- **S + V + C (Complement)**
+Example: The sky is blue.
+- **S + V + O + C**
+Example: They elected him president.
+- **S + V + Adverbial (time, place, manner)**
+Example: He went home early.
+
+
+## 3. Sentence Types: Clause Combinations
+
+- **Simple Sentence:** Contains one independent clause (subject + predicate).
+Example: The dog barks.
+- **Compound Sentence:** Two or more independent clauses joined by a coordinating conjunction (and, but, or, so).
+Example: I wanted to go, but it was raining.
+- **Complex Sentence:** One independent clause and at least one dependent clause introduced by subordinating conjunctions (because, although, if).
+Example: She stayed home because she was sick.
+- **Compound-Complex Sentence:** At least two independent clauses and one or more dependent clauses.
+Example: He went to the park, but she stayed home because she was tired.
+
+
+## 4. Verb and Tense Rules
+
+- Use **verbs** to show actions (run, write) or states of being (is, seem).
+- Maintain **tense consistency** across clauses unless indicating time changes.
+- Use **auxiliary verbs** (have, be, will) for forming perfect and progressive tenses.
+
+
+## 5. Subject-Verb Agreement
+
+- Singular subjects take singular verbs; plural subjects take plural verbs.
+Example: The cat **runs**. The cats **run**.
+
+
+## 6. Voice: Active and Passive
+
+- **Active voice:** Subject performs the action.
+Example: The chef cooks dinner.
+- **Passive voice:** Subject receives the action.
+Example: Dinner is cooked by the chef.
+
+
+## 7. Sentence Connectors and Punctuation
+
+- Use **conjunctions** (and, but, or, because) to join clauses or ideas.
+- Use commas to separate items or clauses in compound sentences.
+- Use semicolons for closely related independent clauses without conjunctions.
+- Use colons to introduce lists or explanations.
+
+---
+
+### Common Sentence Errors
+
+- Subject-verb agreement  
+- Wrong tense usage  
+- Double negatives
+
+
+### Sentence Variety Tips
+
+- Mix sentence lengths for natural flow.
+- Combine simple sentences with complex or compound forms for emphasis and style.
+- Use **periodic sentences** (main idea at end) or **cleft sentences** (It is/was... that...) for focus.
+
+## Paragraph Construction (Extension)
+
+- **Topic Sentence:** Introduce the main idea of the paragraph.
+- **Supporting Sentences:** Explain, provide examples, or expand on the topic sentence.
+- **Transitions:** Use words like however, therefore, additionally to connect ideas smoothly.
+- **Concluding Sentence:** Optional wrap-up or link to next idea.
 
 ---
 
