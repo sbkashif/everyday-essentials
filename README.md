@@ -26,7 +26,10 @@ the repository is not very well maintained. at this moment, i intend to keep it 
   - monitor progress
   - kill a session
 
-- [Essentials of English Grammar](english_grammar.md)
+- parallelization in common softwares
+    - [vasp](vasp_parallelization.md)
+
+- [essentials of english grammar](english_grammar.md)
    - definitios of basic building blocks like nouns, verbs, tenses
    - basic sentence construction rules
    - practical tips for effective writing
