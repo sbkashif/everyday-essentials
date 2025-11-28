@@ -21,6 +21,8 @@ the repository is not very well maintained. at this moment, i intend to keep it 
 - [grep](grep.md)
   - searching for a particular string in all python files in a directory
 
+- [rsync](rsync.md)
+
 - [tmux](tmux.md)
   - start a session
   - monitor progress
