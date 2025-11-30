@@ -269,3 +269,48 @@ echo "--------------------------------------"
 * Conflicts are clearly highlighted in **color**.
 * You can review which files and lines would conflict **before performing an actual merge**.
 * It is completely safe to run on any branch with an upstream set.
+
+
+## get git commits from a specific author
+
+### basic
+```bash
+git log --all --author="$AUTHOR_GITHUB_ID" --pretty=format:"%h %an %ad %s"
+```
+Here:
+ - `%h`: short hash
+ - `%an`: author name
+ - `%ad`: author date
+ - `%s`: subject (commit message)
+
+### search across branches
+#### as is
+```bash
+git for-each-ref --format="%(refname:short)" refs/heads/ | while read branch
+do
+    echo "== $branch =="
+    git log "$branch" --author="Salman" --pretty=format:"%h %s"
+    echo
+done
+```
+
+#### in a table
+```bash
+git-author-commits() {
+    if [ -z "$1" ]; then
+        echo "Usage: git-author-commits <author name or email>"
+        return 1
+    fi
+
+    for c in $(git log --all --author="$1" --pretty=format:"%H"); do
+        echo "---------"
+        echo "Commit: $c"
+        
+        git show -s --pretty=format:"Author: %an <%ae>%nDate:   %ad%nMessage:%n  %s" "$c"
+        
+        echo "Branches:"
+        git branch --all --contains "$c" | sed 's/^/  /'
+        echo
+    done
+}
+```
