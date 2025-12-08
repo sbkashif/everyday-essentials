@@ -27,6 +27,8 @@ the repository is not very well maintained. at this moment, i intend to keep it 
   - start a session
   - monitor progress
   - kill a session
+- [ssh](ssh.md)
+  - reusable remote connection
 
 - parallelization in common softwares
     - [vasp](vasp_parallelization.md)
