@@ -34,3 +34,12 @@ awk 'NR>10000 {sum += \$6; count++} END {if (count > 0) print sum/count}' prod_o
 - `prod_out.txt`: is the input file name that will be read by awk line by line
 
 **summary**: The command skips the first 10,000 lines, then computes the average of the values in the 6th column over all following lines in `prod_out.txt`. This is often used for analyzing simulation or production logs, where only a subset of data is relevant for statistics.
+
+### certain dihedral combinations to print
+
+will add explanation later
+```bash
+awk '/dihedrals/{flag=1; next} flag && $5==4 && \
+(($1==12 || $2==12 || $3==12 || $4==12) && \
+ ($1==16 || $2==16 || $3==16 || $4==16))' ene_gmx.itp 
+```
