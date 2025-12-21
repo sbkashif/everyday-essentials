@@ -1,3 +1,10 @@
+# Count the number of files recursively and print a summary
+
+for d in ./identified_from_rl_*; do
+  c=$(find "$d" -name prod.gro | wc -l)
+  printf "%-40s %d\n" "$d" "$c"
+done | awk '{print; sum+=$2; n++} END {printf "\nSummary:\nTotal prod.gro files: %d\nTotal directories: %d\n", sum, n}'
+
 # Calculate the number of files 
 
 find . -maxdepth 1 -type d ! -path . -exec sh -c 'echo -n "{}: "; find "{}" -type f | wc -l' \;
