@@ -43,3 +43,8 @@ awk '/dihedrals/{flag=1; next} flag && $5==4 && \
 (($1==12 || $2==12 || $3==12 || $4==12) && \
  ($1==16 || $2==16 || $3==16 || $4==16))' ene_gmx.itp 
 ```
+### extract a block from output file
+
+```bash
+awk -v pick=1 '/Assigned PAAAC/{block++} block==pick{print} /Dropping Table/{if(block==pick) exit}' log_debug_itype.txt | grep "distance" > paaac_log.txt
+```
